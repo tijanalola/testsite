@@ -11,26 +11,31 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <aside class="cookie-banner" role="dialog" aria-label="Cookie notice">
+    <p>We use essential cookies to ensure this website functions properly. We do not use tracking or advertising cookies. Read our <a href="#faq">Cookie Policy</a> for more details.</p>
+    <button class="button button-small" type="button" data-cookie-accept>Accept</button>
+  </aside>
   <header class="site-header">
     <a class="logo" href="#top" aria-label="Systems for Private Practice home">
       <span class="logo-flower" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
       <span>Systems<br>for Private<br>Practice</span>
     </a>
-    <nav aria-label="Main navigation">
-      <a href="#services">Services</a><a href="#about">About</a><a href="#faq">Blog</a><a href="#contact">Contact</a>
+    <button class="menu-button" type="button" aria-controls="site-menu" aria-expanded="false" aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <nav id="site-menu" aria-label="Main navigation">
+      <a href="#services">Services</a><a href="#about">About</a><a href="https://systemsforprivatepractice.com/blog">Blog</a><a href="#contact">Contact</a>
       <a class="button button-small" href="#audit">Free Practice Systems Audit</a>
     </nav>
   </header>
 
   <main id="top">
-    <section class="hero band-tint">
+    <section class="hero band-tint reveal">
       <p class="kicker">For therapists, counsellors, and psychologists</p>
       <h1>I help therapists in private practice<br>spend less time on admin, and more<br>time doing the work they trained for</h1>
       <p class="hero-copy">I set up the systems behind your practice - bookings, onboarding, invoicing, and everything in between - so you can either run it on your own, or continue with my ongoing VA support.</p>
       <a class="button" href="#audit">Free Practice Systems Audit <span>→</span></a>
     </section>
 
-    <section class="section familiar">
+    <section class="section familiar reveal">
       <h2>Sound familiar?</h2>
       <ul class="pink-list">
         <li>Your inbox is a constant mix of client queries, reminders, and paperwork that pulls you away from sessions.</li>
@@ -43,7 +48,7 @@
       <a class="button" href="#audit">Free Practice Systems Audit</a>
     </section>
 
-    <section class="section band-tint services" id="services">
+    <section class="section band-tint services reveal" id="services">
       <h2>Here's what I can set up for you</h2>
       <div class="intro-copy">
         <p>I don't just help with individual tasks. I look at how your practice works as a whole - how clients move through it, how your tools connect, and what's happening behind the scenes - and set it up so everything runs smoothly and reliably.</p>
@@ -57,7 +62,7 @@
       </div>
     </section>
 
-    <section class="section how">
+    <section class="section how reveal">
       <h2>How it works</h2>
       <p class="intro-copy centered">Getting your practice systems set up is straightforward. Here's what to expect when we work together.</p>
       <ol class="steps">
@@ -69,7 +74,7 @@
       <a class="button" href="#audit">Free Practice Systems Audit</a>
     </section>
 
-    <section class="section difference band-tint">
+    <section class="section difference band-tint reveal">
       <h2>What makes this different?</h2>
       <div class="long-copy">
         <p>I don't invent workflows from scratch or experiment on your time. The systems I set up are already designed for private practice therapists - with tested processes for handling enquiries, onboarding, bookings, invoicing, and the day-to-day running of your practice. They're based on how therapy practices actually work, not on generic business advice or one-size-fits-all setups.</p>
@@ -86,7 +91,7 @@
       </div>
     </section>
 
-    <section class="section about" id="about">
+    <section class="section about reveal" id="about">
       <h2>About</h2>
       <div class="about-grid">
         <div class="long-copy">
@@ -98,11 +103,11 @@
           <p>If that sounds like what your practice needs - let's talk.</p>
           <a class="button" href="#audit">Free Practice Systems Audit</a>
         </div>
-        <img class="portrait" src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&fit=crop&w=700&q=85" alt="Tijana, founder of Systems for Private Practice">
+        <img class="portrait" src="https://horizons-cdn.hostinger.com/e183c1c9-10f5-4d13-86a5-14fd37115026/3300978afd11cff40cf23d845250b0f5.jpg" alt="Tijana, Virtual Assistant specialising in private practice setup and admin support for therapists">
       </div>
     </section>
 
-    <section class="section band-tint faq" id="faq">
+    <section class="section band-tint faq reveal" id="faq">
       <h2>Frequently asked questions</h2>
       <div class="accordion">
         <details><summary>Is this a good fit for me? <span>⌄</span></summary><p>It is a good fit if your practice is established enough to feel the weight of admin and you want a practical, supported way forward.</p></details>
@@ -114,25 +119,27 @@
         <details><summary>Do you provide the legal paperwork? <span>⌄</span></summary><p>I can support your process and systems, but legal documents should always be reviewed by the appropriate professional.</p></details>
         <details><summary>What happens after the discovery call? <span>⌄</span></summary><p>You receive a clear recommendation for the next best step for your practice.</p></details>
         <details><summary>What if I'm not good with technology? <span>⌄</span></summary><p>You do not need to be. Everything is explained in plain language and built to be manageable.</p></details>
+        <details><summary>What if I already have a system but it's messy? <span>⌄</span></summary><p>That is a very common place to start. We can bring order to what you have before adding anything new.</p></details>
       </div>
     </section>
 
-    <section class="section audit" id="audit">
+    <section class="section audit reveal" id="audit">
       <h2>Let's look at your practice together</h2>
       <div class="intro-copy">
         <p>Book a free 60-minute call and we'll go through how your practice runs right now. I'll ask about each part of your workflow - how clients find you, how you bring them on, how you manage bookings, payments, and the day-to-day running of your practice - and really listen to what's working and what isn't.</p>
         <p>After the call, I'll send you a personalised Practice Systems Review: a written breakdown of your current setup, what's holding you back, and the most impactful changes you could make.</p>
       </div>
-      <a class="button" href="#contact">Pick a time here <span>→</span></a>
+      <a class="button" href="https://tidycal.com/systemsforprivatepractice/free-practice-review-call" target="_blank" rel="noopener">Pick a time here <span>→</span></a>
     </section>
 
-    <section class="section band-tint contact" id="contact">
+    <section class="section band-tint contact reveal" id="contact">
       <h2>Get in touch</h2>
       <p>Have questions? Send me a message and I'll get back to you within 24 hours.</p>
-      <form action="mailto:hello@systemsforprivatepractice.com" method="post" enctype="text/plain">
-        <label>Name<input name="name" type="text" placeholder="Your name"></label>
-        <label>Email<input name="email" type="email" placeholder="your.email@example.com"></label>
-        <label>Message<textarea name="message" rows="6" placeholder="Tell me about your practice and what you need help with..."></textarea></label>
+      <form id="contact-form">
+        <p class="form-status" role="status" aria-live="polite"></p>
+        <label>Name<input name="name" type="text" placeholder="Your name" required></label>
+        <label>Email<input name="email" type="email" placeholder="your.email@example.com" required></label>
+        <label>Message<textarea name="message" rows="6" placeholder="Tell me about your practice and what you need help with..." required></textarea></label>
         <button class="button" type="submit">Send message</button>
       </form>
     </section>
@@ -140,9 +147,10 @@
 
   <footer>
     <a class="logo" href="#top"><span class="logo-flower" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Systems<br>for Private<br>Practice</span></a>
-    <div><h3>Let's connect!</h3><a href="mailto:hello@systemsforprivatepractice.com">hello@systemsforprivatepractice.com</a><p><a href="#">LinkedIn</a></p></div>
+    <div><h3>Let's connect!</h3><a href="mailto:tijana@systemsforprivatepractice.com">tijana@systemsforprivatepractice.com</a><p><a href="#">LinkedIn</a></p></div>
     <div><h3>Quick links</h3><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a><a href="#faq">Privacy Policy</a><a href="#faq">Cookie Policy</a></div>
     <p class="copyright">© 2026 Systems for Private Practice. All rights reserved.</p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
